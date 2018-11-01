@@ -39,7 +39,7 @@ module.exports = {
 
 							var result = (self.output.name === 'website') ?
 								"<div class='fbqx'><div class='FBQbox gitQuestion' data-id='" + checksum(blk.body) + "' data-answer='" + JSON.stringify(ans) + "'>" + para + "<br><button class='btn btn-default btn-sm FBQsubmit'>Submit</button><br><p class='alert alert-default FBQmessage'>Correct.</p></div></div>" :
-								"<blockquote>" + para + "<br/><small style='font-size: 8px;'>ans: " + ans.join(',') + "</small></blockquote>";
+								"<blockquote>" + para + "<br/><small style='font-size: 8px;'>ans: OMIT</small></blockquote>";
 
 							resolve(result);
 						});
